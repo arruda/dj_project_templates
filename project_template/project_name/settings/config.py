@@ -23,7 +23,7 @@ LOGIN_URL = '/login/'
 LOGOUT_URL = '/logout/'
 LOGIN_REDIRECT_URL = '/'
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = '{{ project_name }}.urls'
 
 MEDIA_ROOT = LOCAL('media') 
 MEDIA_URL = '/media/'
@@ -68,11 +68,13 @@ WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     # default template context processors
-    'django.core.context_processors.auth',
+	'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.debug',
     'django.core.context_processors.i18n',
     'django.core.context_processors.media',
-    'django.core.context_processors.static',    
+    'django.core.context_processors.static',  
+	'django.core.context_processors.tz',
+	'django.contrib.messages.context_processors.messages',  
     'django.core.context_processors.request',
     
     #others    
