@@ -10,7 +10,7 @@
 
 from django.db import models
 
-class SomeModel(models):
+class SomeModel(models.Model):
     """ Some model descption
 	"""
     
