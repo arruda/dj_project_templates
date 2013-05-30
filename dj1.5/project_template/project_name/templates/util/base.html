@@ -1,0 +1,35 @@
+{% extends "util/skeleton.html"%}
+
+{% block 'css-extras' %}
+	<link  rel='stylesheet' media='all'  type='text/css' href="{{ STATIC_URL }}css/style.css">
+{% endblock %}
+
+{% block 'js-imports' %}
+{% endblock %}
+
+{% block 'jquery-docready' %}
+{{ block.super }}
+{% endblock %}
+
+{% block 'body-header' %}
+		{% include "util/header.html" %} 
+	 
+{% endblock %}
+
+
+
+{% block 'body-side' %}
+		{% include "util/float-lateral.html" %} 
+{% endblock %}
+
+
+{% block 'body-main' %}
+	 <div id='content' >
+			{% block 'body-content' %}
+			{% endblock %}
+	 </div>
+{% endblock %}
+
+{% block 'body-footer' %}
+     {% include "util/footer.html" %} 
+{% endblock %}
