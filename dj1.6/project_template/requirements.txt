@@ -1,0 +1,12 @@
+Django==1.6.2
+
+django-extensions
+django-annoying==0.7.7
+django-model-utils==1.1.0
+
+django-debug-toolbar
+django-h5bp==0.3
+
+bpython
+PyYaml==3.10
+
