@@ -1,28 +1,33 @@
-{% extends "bootstrap/bootstrap_h5bp.html" %}
+{% templatetag openblock %} extends "bootstrap/bootstrap_h5bp.html" {% templatetag closeblock %}
 
 
-{% block page-title %} New Project {% endblock %}
-{% block meta-description %}A new Project{% endblock %}
-{% block meta-keywords %}{% endblock %}
-{% block meta-author %}Felipe Arruda Pontes{% endblock %}
-{% block meta-generator %}Django 1.6{% endblock %}
-{% block meta-extras %}{% endblock %}
+{% templatetag openblock %} block page-title {% templatetag closeblock %}{{ project_name }}{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block meta-description {% templatetag closeblock %}A new Project{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block meta-keywords {% templatetag closeblock %}{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block meta-author {% templatetag closeblock %}Felipe Arruda Pontes{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block meta-generator {% templatetag closeblock %}Django 1.6{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block meta-extras {% templatetag closeblock %}{% templatetag openblock %} endblock {% templatetag closeblock %}
 
 
-{% block 'css-extras' %}
-{% endblock %}
+{% templatetag openblock %} block 'css-extras' {% templatetag closeblock %}
+{% templatetag openblock %} endblock {% templatetag closeblock %}
 
-{% block 'js-imports' %}
-{% endblock %}
-
-
-{% block jquery-docready %}
-{% endblock %}
-
-{% block jquery-winload %}{% endblock %}
-
-{% block js-onpage %}{% endblock %}
+{% templatetag openblock %} block 'js-imports' {% templatetag closeblock %}
+{% templatetag openblock %} endblock {% templatetag closeblock %}
 
 
-{% block analytics %}
-{% endblock %}
+{% templatetag openblock %} block jquery-docready {% templatetag closeblock %}
+{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block jquery-winload {% templatetag closeblock %}{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+{% templatetag openblock %} block js-onpage {% templatetag closeblock %}{% templatetag openblock %} endblock {% templatetag closeblock %}
+
+
+{% templatetag openblock %} block analytics {% templatetag closeblock %}
+{% templatetag openblock %} endblock {% templatetag closeblock %}
