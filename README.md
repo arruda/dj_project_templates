@@ -11,22 +11,22 @@ How to use
 
 Start Project:
 
-    django-admin.py startproject --template=https://github.com/arruda/dj_project_templates/zipball/1.6 --extension="md,py,html"
+    django-admin.py startproject --template=https://github.com/arruda/dj_project_templates/tarball/1.6 --extension="md,py,html"
 
 Start App:
 
-    django-admin.py startapp --template=https://github.com/arruda/dj_project_templates/zipball/app_template
+    django-admin.py startapp --template=https://github.com/arruda/dj_project_templates/tarball/app_template
 
 
 Or add this alias to your .bashrc:
 
 **djproj**
 
-    $ echo "alias djproj='django-admin.py startproject --template=https://github.com/arruda/dj_project_templates/zipball/1.6 --extension=\"md,py,html\"'" >> ~/.bashrc
+    $ echo "alias djproj='django-admin.py startproject --template=https://github.com/arruda/dj_project_templates/tarball/1.6 --extension=\"md,py,html\"'" >> ~/.bashrc
 
 
 **djapp**
 
-    $ echo "alias djapp='django-admin.py startapp --template=https://github.com/arruda/dj_project_templates/zipball/app_template'" >> ~/.bashrc
+    $ echo "alias djapp='django-admin.py startapp --template=https://github.com/arruda/dj_project_templates/tarball/app_template'" >> ~/.bashrc
 
 
