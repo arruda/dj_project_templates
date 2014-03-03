@@ -12,7 +12,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'model_utils',
     'debug_toolbar',
-    'django-h5bp',
+    'django_h5bp',
 
 #apps
 
