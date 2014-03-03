@@ -11,10 +11,10 @@
 import sys
 import os
 
-
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_ROOT =os.path.dirname(PROJECT_ROOT)
-sys.path.append(SITE_ROOT)
+SETTINGS_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DJANGO_ROOT = os.path.dirname(SETTINGS_ROOT)
+SITE_ROOT = os.path.dirname(DJANGO_ROOT)
+sys.path.append(DJANGO_ROOT)
 
 SECRET_KEY = '{{ secret_key }}'
 
