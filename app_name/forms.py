@@ -4,9 +4,7 @@
     ~~~~~~~~~~~~~~
 
     {{ app_name }} forms file
-    
-    :copyright: (c) 2012 by arruda.
+
+    :copyright: (c) 2014 by arruda.
 """
 from django import forms
-
-
