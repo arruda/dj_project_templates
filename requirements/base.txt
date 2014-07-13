@@ -1,7 +1,7 @@
-Django==1.6.2
+Django==1.6.5
 django-extensions==1.3.3
 bpython==0.12
 django-model-utils==1.5.0
 django-annoying==0.7.7
 South==0.8.2
-django-h5bp==0.3
+django-h5bp==0.3.4

@@ -35,5 +35,3 @@ else:
 if NO_DEPRECATION_WARNINGS:
     import warnings
     warnings.simplefilter('ignore', DeprecationWarning)
-
-

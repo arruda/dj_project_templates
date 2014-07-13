@@ -6,7 +6,7 @@ SERVE_MEDIA = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': LOCAL('db.sqlite') ,
+        'NAME': LOCAL('db.sqlite'),
         'USER': '',
         'PASSWORD': '',
         'HOST': '',
